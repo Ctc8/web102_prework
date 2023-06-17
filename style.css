@@ -21,6 +21,15 @@ body {
 
 .stats-container {
     display: flex;
+    cursor: pointer;
+}
+
+.num-games {
+    color: aqua;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
